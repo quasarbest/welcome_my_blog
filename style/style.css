@@ -1207,12 +1207,12 @@ span:nth-of-type(21) {
   display: flex;
   width: 30%;
   height: auto;
-  min-height: 60%;
+  min-height: auto;
   align-items: flex-end;
   justify-content: center;
 }
 .left_img_content img {
-  width: 90%;
+  width: 100%;
   height: auto;
   filter: drop-shadow(0 4px 28px #1111118c);
   margin-bottom: -5px;

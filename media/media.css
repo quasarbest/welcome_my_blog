@@ -4,14 +4,25 @@
 } */
 }
 
-@media screen and (max-width: 1651px) {
+@media screen and (max-width: 1680px) {
    .list_of_facts {
-      /* height: 320px; */
-      min-width: 350px;
+      height: 25vh;
    }
+   .under_level_panel li {
+      font-size: 0.9em;
+   }
+   .right_content_text p{
+      font-size: 1.3em;
+   }
+   /* .man_img{
+      width: 100%;
+   } */
 }
 
 @media screen and (max-width: 1000px) {
+   body {
+      font-size: 70%;
+   }
    .main_container {
       /* transform: rotate(0deg) translateX(100vh); */
       transform: none;
