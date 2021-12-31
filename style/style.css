@@ -1139,7 +1139,7 @@ span:nth-of-type(21) {
   }
   50% {
     transform: rotate(20deg);
-    left: 20%;
+    left: 3%;
   }
   100% {
     left: 0;
@@ -1168,7 +1168,7 @@ span:nth-of-type(21) {
   }
   50% {
     transform: rotate(-20deg);
-    left: 20%;
+    left: 3%;
   }
   100% {
     left: 0;
