@@ -298,13 +298,14 @@ h1, h2, h3, h4, h5, h6, p, ul, li, span, strong, a {
 }
 
 .tabs__nav-btn {
-  background-color: #3b3b3bd5;
+  background-color: #444444;
   align-items: center;
   justify-content: center;
   display: flex;
   width: 55px;
   height: 30px;
   min-height: auto;
+  filter: drop-shadow(0px 4px 8px rgba(7, 7, 7, 0.42));
   flex-direction: column;
   border: none;
   outline: none;
@@ -312,6 +313,7 @@ h1, h2, h3, h4, h5, h6, p, ul, li, span, strong, a {
   border-radius: 3px;
 }
 .tabs__nav-btn img {
+  margin-top: 4.5px;
   width: 38px;
   height: auto;
   min-height: auto;
@@ -324,7 +326,7 @@ h1, h2, h3, h4, h5, h6, p, ul, li, span, strong, a {
 .tabs__nav-btn:hover {
   outline: none;
   transition: 0.4s;
-  background-color: #222222;
+  background-color: #fd5900;
 }
 
 .tabs__content {
@@ -950,7 +952,7 @@ span:nth-of-type(21) {
 
 .img_portfolio {
   display: flex;
-  width: 60%;
+  width: 100%;
   height: auto;
   min-height: auto;
   cursor: pointer;
@@ -1133,7 +1135,7 @@ span:nth-of-type(21) {
   }
   50% {
     transform: rotate(20deg);
-    left: 3%;
+    left: 20%;
   }
   100% {
     left: 0;
@@ -1162,7 +1164,7 @@ span:nth-of-type(21) {
   }
   50% {
     transform: rotate(-20deg);
-    left: 3%;
+    left: 20%;
   }
   100% {
     left: 0;
@@ -1209,10 +1211,10 @@ span:nth-of-type(21) {
   height: auto;
   min-height: auto;
   align-items: flex-end;
-  justify-content: center;
+  justify-content: flex-end;
 }
 .left_img_content img {
-  width: 100%;
+  width: 26vw;
   height: auto;
   filter: drop-shadow(0 4px 28px #1111118c);
   margin-bottom: -5px;
@@ -1258,7 +1260,7 @@ span:nth-of-type(21) {
   filter: drop-shadow(8px 8px 10px rgba(7, 7, 7, 0.42));
 }
 .right_content_contacts .contacts a:hover {
-  color: white;
+  color: #fd5900;
 }
 
 .container_slider {

@@ -211,14 +211,16 @@ h1,h2,h3,h4,h5,h6,p,ul,li,span,strong,a
     bottom: 100px
 
 .tabs__nav-btn
-    background-color: #3b3b3bd5
+    background-color: #444444
     @include flex-center(55px, 30px ,auto )
+    filter: drop-shadow(0px 4px 8px rgba(7, 7, 7, 0.42))
     flex-direction: column
     border: none
     outline: none
     margin-bottom: 20px
     border-radius: 3px
     img
+        margin-top: 4.5px 
         @include size(38px, auto ,auto )
 .tabs__nav-btn:last-child
     border-right: none
@@ -226,7 +228,7 @@ h1,h2,h3,h4,h5,h6,p,ul,li,span,strong,a
 .tabs__nav-btn:hover
     outline: none
     transition: .4s
-    background-color: #222222
+    background-color: #fd5900
 
 
 
@@ -610,7 +612,7 @@ h1,h2,h3,h4,h5,h6,p,ul,li,span,strong,a
     // background-color: #0727db
     position: relative
 .img_portfolio
-    @include flex(60%,auto,auto )
+    @include flex(100%,auto,auto )
     cursor: pointer
     transition: .9s
     border-radius: 10px
@@ -734,7 +736,7 @@ h1,h2,h3,h4,h5,h6,p,ul,li,span,strong,a
         left: 0
     50% 
         transform: rotate(20deg)  
-        left: 3%
+        left: 20%
     100%
         left: 0
         transform: rotate(0deg)  
@@ -756,7 +758,7 @@ h1,h2,h3,h4,h5,h6,p,ul,li,span,strong,a
         left: 0
     50% 
         transform: rotate(-20deg)  
-        left: 3%
+        left: 20%
     100%
         left: 0
         transform: rotate(0deg)
@@ -786,9 +788,9 @@ h1,h2,h3,h4,h5,h6,p,ul,li,span,strong,a
     @include flex(30%,auto,auto )
     align-items: flex-end
     // background-color: #09b3d1
-    justify-content: center
+    justify-content: flex-end
     img
-        width: 100%
+        width: 26vw
         height: auto
         filter: drop-shadow(0 4px 28px #1111118c)
         margin-bottom: -5px
@@ -821,7 +823,7 @@ h1,h2,h3,h4,h5,h6,p,ul,li,span,strong,a
                 width: 100px  
                 filter: drop-shadow(8px 8px 10px rgba(7, 7, 7, 0.42))
         a:hover 
-            color: white    
+            color: #fd5900    
 //slider first page =====================================================================
 .container_slider
     display: flex
