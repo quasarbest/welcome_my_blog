@@ -220,7 +220,6 @@ h1,h2,h3,h4,h5,h6,p,ul,li,span,strong,a
     border-radius: 3px
     img
         @include size(38px, auto ,auto )
-
 .tabs__nav-btn:last-child
     border-right: none
 
@@ -229,10 +228,7 @@ h1,h2,h3,h4,h5,h6,p,ul,li,span,strong,a
     transition: .4s
     background-color: #222222
 
-.tabs__nav-btn.active
-    outline: none
-    background: linear-gradient(90deg, #222222bb 0%, #000000bb 100%)
-    box-shadow: 0 0 10px #000000c0
+
 
 .tabs__content
     @include flex(auto,100vh,auto )
@@ -787,12 +783,12 @@ h1,h2,h3,h4,h5,h6,p,ul,li,span,strong,a
         justify-content: space-between
         
 .left_img_content
-    @include flex(30%,auto,100% )
+    @include flex(30%,auto,60% )
     align-items: flex-end
     // background-color: #09b3d1
     justify-content: center
     img
-        width: 100%
+        width: 90%
         height: auto
         filter: drop-shadow(0 4px 28px #1111118c)
         margin-bottom: -5px

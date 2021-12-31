@@ -281,3 +281,8 @@ function opacity() {
       blockOpacity[i].classList.toggle("opacity");
    }
 }
+let page_btn = document.querySelector(".tabs__item ");
+
+if (page_btn.classList.contains == 'active') {
+   console.log('дадададад');
+}

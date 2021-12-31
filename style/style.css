@@ -327,12 +327,6 @@ h1, h2, h3, h4, h5, h6, p, ul, li, span, strong, a {
   background-color: #222222;
 }
 
-.tabs__nav-btn.active {
-  outline: none;
-  background: linear-gradient(90deg, #222222bb 0%, #000000bb 100%);
-  box-shadow: 0 0 10px #000000c0;
-}
-
 .tabs__content {
   display: flex;
   width: auto;
@@ -1213,12 +1207,12 @@ span:nth-of-type(21) {
   display: flex;
   width: 30%;
   height: auto;
-  min-height: 100%;
+  min-height: 60%;
   align-items: flex-end;
   justify-content: center;
 }
 .left_img_content img {
-  width: 100%;
+  width: 90%;
   height: auto;
   filter: drop-shadow(0 4px 28px #1111118c);
   margin-bottom: -5px;
