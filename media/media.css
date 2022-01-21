@@ -1,28 +1,175 @@
-@media screen and (max-width: 1751px) {
-   /* .list_of_facts{
-    height: 350px;
-} */
+@media screen and (max-width: 1890px) {
+   .right_content_contacts .contacts {
+      width: 40%;
+   }
 }
 
 @media screen and (max-width: 1680px) {
+   body {
+      font-size: 92%;
+   }
    .list_of_facts {
       height: 25vh;
    }
    .under_level_panel li {
       font-size: 0.9em;
    }
-   .right_content_text p{
+   .right_content_text p {
       font-size: 1.3em;
+      align-self: center;
+      width: 82%;
    }
    /* .man_img{
       width: 100%;
    } */
 }
-
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1401px) {
    body {
-      font-size: 70%;
+      font-size: 85%;
    }
+   .under_level_panel li strong {
+      font-size: 1.4em;
+   }
+   .under_level_panel .level {
+      width: 54vw;
+   }
+   .block_level span {
+      font-size: 2.2em;
+   }
+   .page_two .container_content {
+      width: 84%;
+   }
+   .img_portfolio {
+      width: 92%;
+   }
+   .page_two h3 {
+      width: 85%;
+   }
+   .page_three h3 {
+      width: 85%;
+   }
+   .page_four h3 {
+      width: 85%;
+   }
+   .page_five h3 {
+      width: 92%;
+   }
+   .right_content_contacts .contacts {
+      width: 50%;
+   }
+   .line {
+      width: 100%;
+   }
+   .page_four .container_content p::before {
+      left: -84px;
+   }
+   .block_content_portfolio {
+      width: 90%;
+   }
+   .inner_page_three {
+      width: 90%;
+   }
+   .anime_img {
+      width: 77vw;
+   }
+}
+@media screen and (max-width: 1025px) {
+   body {
+      font-size: 65%;
+   }
+   .list_of_facts {
+      height: 18vh;
+
+      min-width: 260px;
+   }
+   .list_of_facts li img {
+      width: 2.5vw;
+   }
+   .list_of_facts li:nth-child(2) {
+      margin-left: 10px;
+   }
+   .list_of_facts li:nth-child(3) {
+      margin-left: 30px;
+   }
+   .list_of_facts li:nth-child(4) {
+      margin-left: 50px;
+   }
+   .list_of_facts li:nth-child(5) {
+      margin-left: 70px;
+   }
+   .list_of_facts li:nth-child(6) {
+      margin-left: 90px;
+   }
+   .list_of_facts li:nth-child(7) {
+      margin-left: 110px;
+   }
+   .list_of_facts li:nth-child(8) {
+      margin-left: 130px;
+   }
+   .right_content_text h3 {
+      height: 4vh;
+      font-size: 1.9em;
+   }
+   .right_content_text p {
+      height: 27vh;
+   }
+   .inner_text_img {
+      min-height: 46%;
+   }
+   .right_content_text {
+      justify-content: end;
+   }
+   .under_level_panel ul p {
+      font-size: 1.2em;
+   }
+   .block_level img {
+      width: 44px;
+   }
+   .block_level .small {
+      width: 95px;
+   }
+   .page_four .container_content p {
+      width: 65%;
+      padding: 5px;
+   }
+
+   .page_four .container_content p::before {
+      left: -58px;
+      width: 58px;
+      min-height: 59px;
+   }
+   .page_four .container_content p::after {
+      width: 58px;
+      min-height: 59px;
+   }
+   .page_four .container_contentХ {
+      width: 87%;
+   }
+   .right_content_contacts .contacts a img {
+      width: 75px;
+   }
+   .right_content_contacts .contacts {
+      min-height: 49vh;
+   }
+   .left_img_content img {
+      width: 29vw;
+   }
+   .btn_nav_slider_vertical img {
+      width: 25px;
+   }
+   .under_level_panel li strong {
+      font-size: 1.6em;
+   }
+}
+@media screen and (max-width: 1001px) {
+   body {
+      font-size: 60%;
+   }
+
+   .main_container {
+      width: 99.935vw;
+   }
+
    .main_container {
       /* transform: rotate(0deg) translateX(100vh); */
       transform: none;
@@ -32,15 +179,15 @@
    .mouse_anime {
       display: none;
    }
-.inner_page_three {
-   opacity: 1;
-}
+   .inner_page_three {
+      opacity: 1;
+   }
    .tabs__content {
       transform: none;
       overflow: auto;
    }
    .menu {
-      width: 100vw;
+      width: 99.8vw;
       height: 60px;
       flex-direction: row;
       align-items: center;
@@ -63,4 +210,243 @@
    .main_container .inner_content {
       min-height: 100vh;
    }
+   .right_content_text p {
+      font-size: 1.6em;
+   }
+   .under_level_panel li strong {
+      font-size: 1.7em;
+   }
+   .under_level_panel ul p {
+      font-size: 1.5em;
+   }
+   .inner_text_img {
+      width: 82%;
+   }
+   .tabs__nav {
+      bottom: 0;
+   }
+   .tabs__nav a {
+      margin: 5px;
+   }
+   .block_content_portfolio {
+      flex-direction: column;
+   }
+   .block_content_portfolio_text {
+      flex-direction: column;
+      min-height: 35vh;
+   }
+   .btn_nav_slider_vertical {
+      opacity: 1;
+      height: 35vh;
+   }
+   .opacity {
+      opacity: 1;
+   }
+   .img_portfolio {
+      width: 100%;
+      animation: none;
+      left: 0;
+   }
+   .container_content_animation {
+      height: 50vh;
+   }
+   .page_four .container_content p {
+      width: 81%;
+   }
+   .left_img_content img {
+      width: 33vw;
+   }
+   .right_content_contacts .contacts {
+      min-width: 270px;
+   }
+}
+@media screen and (max-width: 768px) {
+   body {
+      font-size: 45%;
+   }
+   .container_slider:hover .btn_nav_slider {
+      opacity: 1;
+      width: 91%;
+   }
+   .lawyer_img {
+      width: 24vw;
+   }
+   .builder_img {
+      width: 24vw;
+   }
+   .prorammist_img {
+      width: 26vw;
+   }
+   .container_content_animation {
+      height: 38vh;
+   }
+   .list_of_facts {
+      height: 15vh;
+      min-width: 216px;
+   }
+   .block_content_portfolio_text strong {
+      font-size: 1.8em;
+   }
+   .right_content_contacts p {
+      font-size: 3em;
+   }
+}
+@media screen and (max-width: 736px) {
+   .man_img {
+      display: none;
+   }
+   .left_inner_slider_content {
+      width: 100%;
+      margin-left: 0;
+   }
+   .btn_nav_slider {
+      opacity: 1;
+      bottom: 20vh;
+      width: 81%;
+   }
+   .inner_dots {
+      display: none;
+   }
+   .slider_width {
+      height: 29vh;
+   }
+   .under_level_panel {
+      height: 2vh;
+   }
+   .under_level_panel h2 {
+      font-size: 3.3em;
+   }
+   .under_level_panel .level_number {
+      font-size: 3em;
+      left: 36%;
+   }
+   .under_level_panel .month_new {
+      font-size: 3em;
+      left: 37%;
+   }
+   .under_level_panel .level {
+      width: 83vw;
+   }
+   .under_level_panel .level_scale {
+      width: 40vw;
+      height: 4vh;
+   }
+   .under_level_panel .level_text {
+      font-size: 2em;
+   }
+   .under_level_panel ul {
+      height: 10vh;
+   }
+   .main_container .inner_content {
+      flex-direction: column;
+   }
+   .right_content_text {
+      width: 100%;
+      height: 30vh;
+      justify-content: space-between;
+   }
+   .right_content_text p {
+      height: 2vh;
+   }
+   .right_content_text h3 {
+      height: 0vh;
+      font-size: 3em;
+   }
+   .page_one {
+      justify-content: space-between;
+   }
+   .list_of_facts {
+      display: none;
+   }
+   .right_content_text p {
+      font-size: 2em;
+   }
+   .main_container {
+      width: 100vw;
+   }
+   .menu {
+      width: 99.7vw;
+   }
+}
+@media screen and (max-width: 570px) {
+   .block_level span {
+      font-size: 1.8em;
+   }
+   .block_level .small {
+      width: 63px;
+   }
+   .block_level img {
+      width: 30px;
+   }
+   .page_four .container_content p::before {
+      left: -42px;
+      width: 36px;
+      min-height: 40px;
+   }
+   .page_four .container_content p::after {
+      width: 36px;
+      min-height: 40px;
+      left: 101%;
+      top: 93%;
+   }
+   .under_level_panel .level {
+      width: 94vw;
+   }
+}
+@media screen and (max-width: 426px) {
+   body {
+      font-size: 35%;
+   }
+   .open_menu div a {
+      font-size: 10em;
+   }
+   .under_level_panel li strong {
+      font-size: 2em;
+   }
+   .under_level_panel li img {
+      width: 8px;
+   }
+   .under_level_panel .level {
+      width: 100vw;
+   }
+   .under_level_panel ul p {
+      font-size: 2em;
+   }
+   .under_level_panel .level_scale {
+      height: 3vh;
+   }
+   .page_two .container_content {
+      min-height: 75%;
+   }
+   .page_two .container_content {
+    width: 95%;
+}
+.block_level{
+   width: 15.5%;
+}
+.page_two h3 {
+   font-size: 4.7em;
+    width: 95%;
+}
+.page_three h3 {
+   font-size: 4.7em;
+    width: 95%;
+}
+.page_four h3 {
+   font-size: 4.7em;
+    width: 95%;
+}
+.page_five h3 {
+   font-size: 4.7em;
+    width: 95%;
+}
+.page_five h3 span {
+    font-size: 1.1em;
+}
+.right_content_contacts .contacts {
+    min-width: 220px;
+}
+.right_content_contacts .contacts a{
+   font-size: 2.5em;
+}
 }

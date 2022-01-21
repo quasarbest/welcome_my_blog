@@ -136,13 +136,13 @@ let mainContainer = document.querySelector(".main_container");
 var isScrolling; // скролл с последующей очисткой таймаута
 var stateCard = 0; // количество завершенных скролов
 mainContainer.addEventListener("scroll", function () {
-   let percent = (this.scrollTop / this.offsetWidth) * 110;
-   console.log(percent);
+   let percent = (this.scrollTop / this.offsetWidth) * 105;
+   // console.log(percent);
 
    window.clearTimeout(isScrolling); // чистим таймаут
    // если скрол больше 100, значит ты проскролил одну секцию
 
-   if (percent > 100 && percent < 200) {
+   if (percent > 100 && percent < 300) {
       isScrolling = setTimeout(function () {
          // при каждом завершении одного скрола stateCard ростет
          stateCard++;
@@ -165,13 +165,15 @@ mainContainer.addEventListener("scroll", function () {
                .querySelector(".block_level__six")
                .classList.add("anime_six");
          }
+        
          let pageThree = document.querySelector(".inner_page_three");
          let animeVerticalSlider = document.querySelector(
             ".btn_nav_slider_vertical"
          );
-         if (percent >= 165) {
+         if (stateCard == 4) {
             animeVerticalSlider.classList.add("btn_nav_slider_vertical_active");
             pageThree.style.opacity = "1";
+            // console.log('да 4');
          }
          let percentSpanFirst = (document.querySelector(".anime").style.height =
             85 + "%");
@@ -250,7 +252,7 @@ function myFunction(x) {
    }
 }
 
-var x = window.matchMedia("(max-width: 1001px)");
+var x = window.matchMedia("(max-width: 1000px)");
 myFunction(x); // Вызов функции прослушивателя во время выполнения
 x.addListener(myFunction); // Присоединить функцию прослушивателя при изменении состояния
 
@@ -281,8 +283,10 @@ function opacity() {
       blockOpacity[i].classList.toggle("opacity");
    }
 }
-let page_btn = document.querySelector(".tabs__item ");
+// let page_btn = document.querySelector(".tabs__item ");
 
-if (page_btn.classList.contains == 'active') {
-   console.log('дадададад');
-}
+// if (page_btn.classList.contains == 'active') {
+//    console.log('дадададад');
+// }
+// console.log(percentSpanFirst);
+
