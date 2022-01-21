@@ -262,9 +262,18 @@ $(function () {
       vertical: true,
       verticalSwiping: true,
       slidesToShow: 1,
-      // autoplay: true,
       prevArrow: $(".next_slide_vertical"),
       nextArrow: $(".prev_slide_vertical"),
+      responsive: [
+         {
+            breakpoint: 1001,
+            settings: {
+              swipe: false,
+            },
+         },
+        
+      ],
+   
    });
 });
 

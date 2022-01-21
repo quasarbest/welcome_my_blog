@@ -419,34 +419,96 @@
       min-height: 75%;
    }
    .page_two .container_content {
-    width: 95%;
+      width: 95%;
+   }
+   .block_level {
+      width: 15.5%;
+   }
+   .page_two h3 {
+      font-size: 4.7em;
+      width: 95%;
+   }
+   .page_three h3 {
+      font-size: 4.7em;
+      width: 95%;
+   }
+   .page_four h3 {
+      font-size: 4.7em;
+      width: 95%;
+   }
+   .page_five h3 {
+      font-size: 4.7em;
+      width: 95%;
+   }
+   .page_five h3 span {
+      font-size: 1.1em;
+   }
+   .right_content_contacts .contacts {
+      min-width: 220px;
+   }
+   .right_content_contacts .contacts a {
+      font-size: 2.5em;
+   }
 }
-.block_level{
-   width: 15.5%;
+@media screen and (max-width: 376px) {
+   body {
+      font-size: 30%;
+   }
+   .btn_nav_slider {
+      width: 86%;
+   }
+   .right_content_text h3 {
+      font-size: 3.1em;
+   }
+   .under_level_panel li strong {
+      font-size: 3em;
+   }
+   .right_content_text {
+      height: 24vh;
+   }
+   .under_level_panel ul p {
+      font-size: 2.5em;
+      align-items: baseline;
+   }
+   .under_level_panel ul {
+      height: 14vh;
+      align-items: baseline;
+   }
+   .under_level_panel {
+      height: 14vh;
+   }
+   .under_level_panel .level_text {
+      font-size: 3em;
+   }
+   .menu {
+      height: 50px;
+   }
+   .right_content_text p {
+      font-size: 2.1em;
+   }
+   .block_content_portfolio_text h2 {
+      font-size: 3.2em;
+      height: 4vh;
+   }
+   .block_content_portfolio_text a {
+      font-size: 3em;
+   }
+   .block_content_portfolio_text p {
+      font-size: 2.3em;
+   }
+   .block_content_portfolio_text ul {
+      font-size: 2.5em;
+   }
+   .block_content_portfolio_text strong {
+      font-size: 3em;
+      width: 100%;
+   }
+   .right_content_contacts .contacts {
+      min-width: 204px;
+   }
 }
-.page_two h3 {
-   font-size: 4.7em;
-    width: 95%;
-}
-.page_three h3 {
-   font-size: 4.7em;
-    width: 95%;
-}
-.page_four h3 {
-   font-size: 4.7em;
-    width: 95%;
-}
-.page_five h3 {
-   font-size: 4.7em;
-    width: 95%;
-}
-.page_five h3 span {
-    font-size: 1.1em;
-}
-.right_content_contacts .contacts {
-    min-width: 220px;
-}
-.right_content_contacts .contacts a{
-   font-size: 2.5em;
-}
+@media screen and (max-width: 321px) {
+   body {
+      font-size: 25%;
+   }
 }
