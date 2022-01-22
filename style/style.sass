@@ -219,7 +219,7 @@ h1,h2,h3,h4,h5,h6,p,ul,li,span,strong,a
     margin-bottom: 20px
     border-radius: 3px
     img
-        margin-top: 4.5px 
+        margin-top: 4.5px
         @include size(38px, auto ,auto )
 .tabs__nav-btn:last-child
     border-right: none
@@ -228,8 +228,6 @@ h1,h2,h3,h4,h5,h6,p,ul,li,span,strong,a
     outline: none
     transition: .4s
     background-color: #fd5900
-
-
 
 .tabs__content
     @include flex(auto,100vh,auto )
@@ -437,14 +435,13 @@ h1,h2,h3,h4,h5,h6,p,ul,li,span,strong,a
         strong
             font-size: 1em
             white-space: nowrap
-@-webkit-keyframes animatedgradient 
+@-webkit-keyframes animatedgradient
     0% 
-        background-position: 0% 50%
+    background-position: 0% 50%
     50% 
-        background-position: 100% 50%
+    background-position: 100% 50%
     100% 
-        background-position: 0% 50%
-  
+    background-position: 0% 50%
 
 .under_level_panel ul p
     font-size: 1.3em
@@ -569,14 +566,14 @@ h1,h2,h3,h4,h5,h6,p,ul,li,span,strong,a
     span
         width: 100%
         display: flex
-        justify-content: space-between   
+        justify-content: space-between
     .container_content
         @include flex(92%,auto,85% )
         justify-content: space-between
         align-items: flex-end
 .line
     width: 100%
-    height: 2px 
+    height: 2px
     background: linear-gradient(to right, #1e212e, #ffffff, #1e212e)
 // page_three rus =======================================================================
 .page_three
@@ -660,7 +657,7 @@ h1,h2,h3,h4,h5,h6,p,ul,li,span,strong,a
         font-size: 2.5em
     a
         font-size: 2em
-    a:hover 
+    a:hover
         color: #07db9b
     p
         font-size: 1.5em
@@ -744,16 +741,16 @@ h1,h2,h3,h4,h5,h6,p,ul,li,span,strong,a
     filter: drop-shadow(0 4px 28px #1111118c)
 
 @keyframes forward
-    0% 
+    0%
         transform: rotate(0deg)
         left: 0
-    50% 
-        transform: rotate(20deg)  
+    50%
+        transform: rotate(20deg)
         left: 20%
     100%
         left: 0
-        transform: rotate(0deg)  
-     
+        transform: rotate(0deg)
+
 .builder_img
     width: 20vw
     filter: drop-shadow(0 4px 28px #1111118c)
@@ -766,11 +763,11 @@ h1,h2,h3,h4,h5,h6,p,ul,li,span,strong,a
     animation-iteration-count: infinite
     filter: drop-shadow(0 4px 28px #1111118c)
 @keyframes forward_two
-    0% 
+    0%
         transform: rotate(0deg)
         left: 0
-    50% 
-        transform: rotate(-20deg)  
+    50%
+        transform: rotate(-20deg)
         left: 20%
     100%
         left: 0
@@ -796,7 +793,7 @@ h1,h2,h3,h4,h5,h6,p,ul,li,span,strong,a
         // background-color: blue
         align-items: flex-end
         justify-content: space-between
-        
+
 .left_img_content
     @include flex(30%,auto,auto )
     align-items: flex-end
@@ -834,10 +831,10 @@ h1,h2,h3,h4,h5,h6,p,ul,li,span,strong,a
             white-space: nowrap
             img
                 margin-right: 15px
-                width: 100px  
+                width: 100px
                 filter: drop-shadow(8px 8px 10px rgba(7, 7, 7, 0.42))
-        a:hover 
-            color: #fd5900    
+        a:hover
+            color: #fd5900
 //slider first page =====================================================================
 .container_slider
     display: flex
@@ -865,10 +862,13 @@ h1,h2,h3,h4,h5,h6,p,ul,li,span,strong,a
     display: flex
     width: 100%
     align-items: center
-    justify-content: center
+    justify-content: center  
 .item_slide img
     width: 100%
     height: 40vh
+    background-position: center
+    background-repeat: no-repeat
+    background-size: cover
 .btn_nav_slider
     width: 90%
     display: flex
@@ -935,6 +935,3 @@ h1,h2,h3,h4,h5,h6,p,ul,li,span,strong,a
     color: black
 
 // END slider ===========================================================================
-
-
-
