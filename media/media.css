@@ -166,6 +166,9 @@
       font-size: 60%;
    }
 
+   .page_four .container_content{
+      width: 98%;
+   }
    .main_container {
       width: 99.935vw;
    }
@@ -383,15 +386,16 @@
       width: 30px;
    }
    .page_four .container_content p::before {
-      left: -42px;
-      width: 36px;
-      min-height: 40px;
+      left: -20px;
+      width: 22px;
+      top: -4%;
+      min-height: 22px;
    }
    .page_four .container_content p::after {
-      width: 36px;
-      min-height: 40px;
-      left: 101%;
-      top: 93%;
+      width: 22px;
+      min-height: 22px;
+      left: 100%;
+      top: 96%;
    }
    .under_level_panel .level {
       width: 94vw;
@@ -474,7 +478,7 @@
       font-size: 3em;
    }
    .right_content_text {
-      height: 28vh;
+      height: 29.5vh;
    }
    .under_level_panel ul p {
       font-size: 2.5em;
@@ -507,7 +511,7 @@
       font-size: 2.3em;
    }
    .block_content_portfolio_text ul {
-      font-size: 2.5em;
+      font-size: 2.7em;
    }
    .block_content_portfolio_text strong {
       font-size: 3em;
