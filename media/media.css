@@ -257,7 +257,7 @@
       width: 81%;
    }
    .left_img_content img {
-      width: 33vw;
+      width: 38vw;
    }
    .right_content_contacts .contacts {
       min-width: 270px;
@@ -418,7 +418,7 @@
       width: 8px;
    }
    .under_level_panel .level {
-      width: 100vw;
+      width: 103vw;
    }
    .under_level_panel ul p {
       font-size: 2em;
@@ -449,6 +449,9 @@
    }
    .page_four .container_content p  {
       font-size: 2.5em;
+   }
+   .left_img_content{
+      justify-content: flex-start;
    }
    .page_five h3 {
       font-size: 4.7em;
