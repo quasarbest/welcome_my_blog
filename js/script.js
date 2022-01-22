@@ -103,8 +103,7 @@ scale();
 let mainContainer = document.querySelector(".main_container");
 var isScrolling; // скролл с последующей очисткой таймаута
 var stateCard = 0; // количество завершенных скролов
-let percentSpanFirst = document.querySelector(".anime")
-
+let percentSpanFirst = document.querySelector(".anime");
 
 mainContainer.addEventListener("scroll", function () {
    let percent = (this.scrollTop / this.offsetWidth) * 105;
@@ -220,24 +219,24 @@ function myFunction(x) {
       let percentSpanSixth = (document.querySelector(
          ".anime_six"
       ).style.height = 60 + "%");
-       let percentSpan = (document.querySelector(
-          ".percent_number__one"
-       ).textContent = percentSpanFirst);
-       let percentSpanTwo = (document.querySelector(
-          ".percent_number__two"
-       ).textContent = percentSpanSecond);
-       let percentSpanThree = (document.querySelector(
-          ".percent_number__three"
-       ).textContent = percentSpanThird);
-       let percentSpanFour = (document.querySelector(
-          ".percent_number__four"
-       ).textContent = percentSpanFourth);
-       let percentSpanFive = (document.querySelector(
-          ".percent_number__five"
-       ).textContent = percentSpanFifth);
-       let percentSpanSix = (document.querySelector(
-          ".percent_number__six"
-       ).textContent = percentSpanSixth);
+      let percentSpan = (document.querySelector(
+         ".percent_number__one"
+      ).textContent = percentSpanFirst);
+      let percentSpanTwo = (document.querySelector(
+         ".percent_number__two"
+      ).textContent = percentSpanSecond);
+      let percentSpanThree = (document.querySelector(
+         ".percent_number__three"
+      ).textContent = percentSpanThird);
+      let percentSpanFour = (document.querySelector(
+         ".percent_number__four"
+      ).textContent = percentSpanFourth);
+      let percentSpanFive = (document.querySelector(
+         ".percent_number__five"
+      ).textContent = percentSpanFifth);
+      let percentSpanSix = (document.querySelector(
+         ".percent_number__six"
+      ).textContent = percentSpanSixth);
       // } else {
       // }
    }
