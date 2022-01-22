@@ -210,8 +210,8 @@
       min-height: 100vh;
       flex-direction: column;
    }
-   .main_container .inner_content {
-      min-height: 100vh;
+    .inner_content {
+     min-height: 95vh;
    }
    .right_content_text p {
       font-size: 1.6em;
@@ -481,7 +481,7 @@
       font-size: 3em;
    }
    .right_content_text {
-      height: 29.5vh;
+      height: 24.5vh;
    }
    .under_level_panel ul p {
       font-size: 2.5em;
