@@ -211,7 +211,7 @@
       flex-direction: column;
    }
     .inner_content {
-     min-height: 95vh;
+     min-height: 98vh;
    }
    .right_content_text p {
       font-size: 1.6em;
