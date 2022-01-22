@@ -210,7 +210,7 @@
       flex-direction: column;
    }
    .inner_content {
-      min-height: 98vh;
+      min-height: 100vh;
    }
    .right_content_text p {
       font-size: 1.6em;
@@ -287,8 +287,9 @@
       min-width: 216px;
    }
    .block_content_portfolio_text strong {
-      font-size: 1.8em;
+      font-size: 2em;
    }
+
    .right_content_contacts p {
       height: 10vh;
       font-size: 3em;
@@ -377,6 +378,9 @@
    .block_level span {
       font-size: 1.8em;
    }
+   .block_content_portfolio_text p {
+      font-size: 2em;
+   }
    .menu {
       height: 50px;
    }
@@ -405,6 +409,9 @@
 @media screen and (max-width: 426px) {
    body {
       font-size: 35%;
+   }
+   .block_content_portfolio_text ul {
+      font-size: 2.7em;
    }
    .page_two {
       justify-content: baseline;
@@ -511,9 +518,7 @@
    .block_content_portfolio_text p {
       font-size: 2.3em;
    }
-   .block_content_portfolio_text ul {
-      font-size: 2.7em;
-   }
+
    .block_content_portfolio_text strong {
       font-size: 3em;
       width: 100%;
