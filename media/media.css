@@ -166,7 +166,7 @@
       font-size: 60%;
    }
 
-   .page_four .container_content{
+   .page_four .container_content {
       width: 98%;
    }
    .main_container {
@@ -210,8 +210,8 @@
       min-height: 100vh;
       flex-direction: column;
    }
-    .inner_content {
-     min-height: 98vh;
+   .inner_content {
+      min-height: 98vh;
    }
    .right_content_text p {
       font-size: 1.6em;
@@ -340,6 +340,8 @@
    }
    .under_level_panel ul {
       height: 10vh;
+      align-items: baseline;
+      margin-left: 10px;
    }
    .main_container .inner_content {
       flex-direction: column;
@@ -354,7 +356,7 @@
    }
    .right_content_text h3 {
       height: 0vh;
-      font-size: 3em;
+      font-size: 2.8em;
    }
    .page_one {
       justify-content: space-between;
@@ -405,7 +407,7 @@
    body {
       font-size: 35%;
    }
-   .page_two{
+   .page_two {
       justify-content: baseline;
    }
    .open_menu div a {
@@ -447,10 +449,10 @@
       font-size: 4.7em;
       width: 95%;
    }
-   .page_four .container_content p  {
-      font-size: 2.5em;
+   .page_four .container_content p {
+      font-size: 2.3em;
    }
-   .left_img_content{
+   .left_img_content {
       justify-content: flex-start;
    }
    .page_five h3 {
@@ -474,9 +476,7 @@
    .btn_nav_slider {
       width: 86%;
    }
-   .right_content_text h3 {
-      font-size: 3em;
-   }
+
    .under_level_panel li strong {
       font-size: 3em;
    }
@@ -485,7 +485,6 @@
    }
    .under_level_panel ul p {
       font-size: 2.5em;
-      align-items: baseline;
    }
    .under_level_panel ul {
       height: 14vh;
