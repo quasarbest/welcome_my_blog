@@ -45,7 +45,7 @@ $(document).ready(function () {
 //          currentBtn.classList.add("active");
 //          currentTab.classList.add("active");
 //       }
-//    });   
+//    });
 // }
 
 // document.querySelector(".tabs__nav-btn").click();
@@ -82,7 +82,6 @@ $(document).ready(function () {
       autoplaySpeed: 6000,
    });
 });
-
 
 //END - SLIDER ===============================================================================
 //Level - SCALE ==============================================================================
@@ -135,6 +134,9 @@ scale();
 let mainContainer = document.querySelector(".main_container");
 var isScrolling; // скролл с последующей очисткой таймаута
 var stateCard = 0; // количество завершенных скролов
+let percentSpanFirst = document.querySelector(".anime")
+
+
 mainContainer.addEventListener("scroll", function () {
    let percent = (this.scrollTop / this.offsetWidth) * 105;
    // console.log(percent);
@@ -165,7 +167,7 @@ mainContainer.addEventListener("scroll", function () {
                .querySelector(".block_level__six")
                .classList.add("anime_six");
          }
-        
+
          let pageThree = document.querySelector(".inner_page_three");
          let animeVerticalSlider = document.querySelector(
             ".btn_nav_slider_vertical"
@@ -223,6 +225,7 @@ mainContainer.addEventListener("scroll", function () {
 function myFunction(x) {
    if (x.matches) {
       // Если медиа запрос совпадает
+
       document.querySelector(".block_level__one").classList.add("anime");
       document.querySelector(".block_level__two").classList.add("anime_two");
       document
@@ -231,7 +234,7 @@ function myFunction(x) {
       document.querySelector(".block_level__four").classList.add("anime_four");
       document.querySelector(".block_level__five").classList.add("anime_five");
       document.querySelector(".block_level__six").classList.add("anime_six");
-      let percentSpanFirst = (document.querySelector(".anime").style.height =
+      let percentSpanFirst = (document.querySelector(".anime").style.minHeight =
          85 + "%");
       let percentSpanSecond = (document.querySelector(
          ".anime_two"
@@ -248,7 +251,26 @@ function myFunction(x) {
       let percentSpanSixth = (document.querySelector(
          ".anime_six"
       ).style.height = 60 + "%");
-   } else {
+       let percentSpan = (document.querySelector(
+          ".percent_number__one"
+       ).textContent = percentSpanFirst);
+       let percentSpanTwo = (document.querySelector(
+          ".percent_number__two"
+       ).textContent = percentSpanSecond);
+       let percentSpanThree = (document.querySelector(
+          ".percent_number__three"
+       ).textContent = percentSpanThird);
+       let percentSpanFour = (document.querySelector(
+          ".percent_number__four"
+       ).textContent = percentSpanFourth);
+       let percentSpanFive = (document.querySelector(
+          ".percent_number__five"
+       ).textContent = percentSpanFifth);
+       let percentSpanSix = (document.querySelector(
+          ".percent_number__six"
+       ).textContent = percentSpanSixth);
+      // } else {
+      // }
    }
 }
 
@@ -268,19 +290,17 @@ $(function () {
          {
             breakpoint: 1001,
             settings: {
-              swipe: false,
+               swipe: false,
             },
          },
-        
       ],
-   
    });
 });
 
 // page three anime img ===================================================
 let animeimg = document.querySelectorAll(".img_portfolio");
 for (let i = 0; i < animeimg.length; i++) {
-   animeimg[i].addEventListener("click", function () {  
+   animeimg[i].addEventListener("click", function () {
       animeimg[i].classList.toggle("anime_img");
       opacity();
    });
@@ -298,4 +318,3 @@ function opacity() {
 //    console.log('дадададад');
 // }
 // console.log(percentSpanFirst);
-

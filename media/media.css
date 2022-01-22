@@ -372,6 +372,9 @@
    .block_level span {
       font-size: 1.8em;
    }
+   .menu {
+      height: 50px;
+   }
    .block_level .small {
       width: 63px;
    }
@@ -416,7 +419,7 @@
       height: 3vh;
    }
    .page_two .container_content {
-      min-height: 75%;
+      min-height: 85%;
    }
    .page_two .container_content {
       width: 95%;
@@ -458,13 +461,13 @@
       width: 86%;
    }
    .right_content_text h3 {
-      font-size: 3.1em;
+      font-size: 3em;
    }
    .under_level_panel li strong {
       font-size: 3em;
    }
    .right_content_text {
-      height: 24vh;
+      height: 28vh;
    }
    .under_level_panel ul p {
       font-size: 2.5em;
@@ -481,7 +484,7 @@
       font-size: 3em;
    }
    .menu {
-      height: 50px;
+      height: 40px;
    }
    .right_content_text p {
       font-size: 2.1em;
